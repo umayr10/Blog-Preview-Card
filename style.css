@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    width: 375px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px;
+}
+svg{
+    margin-left: 19px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 19px;
+}
+.main .p1{
+    margin-left: 19px;
+    hsl(0, 0%, 7%)
+    font-weight: 950;
+}
+.main h2{
+    margin-left: 19px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+.main .p2{
+    margin-left: 19px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer img{
+    margin: 10px 10px 10px 19px;
+}
+.footer p b{
+    color: hsl(0, 0%, 7%);
+    font-weight: 950;
+}
